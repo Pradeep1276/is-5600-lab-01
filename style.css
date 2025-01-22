@@ -21,3 +21,35 @@ body {
    line-height: 1.6;
    background-color: #f4f4f4;
 }
+nav {
+   background-color: #333;
+   color: #fff;
+   padding: 1rem 0;
+   text-align: center;
+}
+
+nav a {
+   color: #fff;
+   text-decoration: none;
+   margin: 0 1rem;
+   font-size: 1.2rem;
+}
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+   background-image: url('https://via.placeholder.com/1200x400'); /* Replace with your image URL */
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+   font-size: 2.5rem;
+   text-align: center;
+}
